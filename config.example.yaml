@@ -3,6 +3,7 @@ USER_CONFIG: &USER_CONFIG
 
 # APP target config
 APP: # target name
+  <<: *USER_CONFIG
   # 服务器信息配置
   REMOTE_HOST: 10.10.10.115 # 服务器地址
   REMOTE_PORT: 22           # 服务器 ssh 端口
