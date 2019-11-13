@@ -1,0 +1,17 @@
+USER_CONFIG: &USER_CONFIG
+  USER_NAME: Developer
+
+# APP target config
+APP: # target name
+  # 服务器信息配置
+  REMOTE_HOST: 10.10.10.115 # 服务器地址
+  REMOTE_PORT: 22           # 服务器 ssh 端口
+  REMOTE_USER_NAME: root    # 服务器用户名
+  REMOTE_PASSWORD: 1234     # 服务器登录密码
+  # 上传信息配置 (请使用绝对路径)
+  LOCAL_DIR: E:\project\demo\dist     # 需上传的本地文件夹路径
+  REMOTE_DIR: /home/www/frontend/dist # 上传到的远程文件夹路径
+  # 钉钉信息配置
+  DINGDING_TAG: # 推送信息的 tag
+  DINGDING_URL:  # 点击推送信息跳转的 url
+  DINGDING_PUSH: # 钉钉的推送地址
