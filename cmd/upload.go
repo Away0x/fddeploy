@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"fddeploy/upload"
+	"github.com/Away0x/fddeploy/upload"
 
 	"github.com/spf13/cobra"
 )

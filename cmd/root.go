@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"fddeploy/config"
+	"github.com/Away0x/fddeploy/config"
 
 	"github.com/spf13/cobra"
 )

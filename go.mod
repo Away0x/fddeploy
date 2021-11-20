@@ -1,4 +1,4 @@
-module fddeploy
+module github.com/Away0x/fddeploy
 
 require (
 	github.com/kr/pretty v0.1.0 // indirect

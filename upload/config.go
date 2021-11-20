@@ -2,7 +2,8 @@ package upload
 
 import (
 	"errors"
-	"fddeploy/config"
+
+	"github.com/Away0x/fddeploy/config"
 )
 
 func initConfig() error {

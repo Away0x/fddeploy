@@ -1,12 +1,13 @@
 package upload
 
 import (
-	"fddeploy/config"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
 	"path"
+
+	"github.com/Away0x/fddeploy/config"
 
 	"github.com/pkg/sftp"
 )
